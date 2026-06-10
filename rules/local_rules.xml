@@ -1,0 +1,17 @@
+<group name="network_scan">
+
+  <rule id="100500" level="12">
+
+    <if_sid>92052</if_sid>
+
+    <description>
+      Posible actividad de Network Service Scanning
+    </description>
+
+    <mitre>
+      <id>T1046</id>
+    </mitre>
+
+  </rule>
+
+</group>
